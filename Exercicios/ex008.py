@@ -1,0 +1,2 @@
+n = int(input('Digite uma distância em metros: '))
+print('A medida de {:.1f}m corresponde a: \n{:.3f}km \n{:.2f}hm \n{:.1f}dam \n{}dm \n{}cm \n{}mm'.format(n, n/1000, n/100, n/10, n*10, n*100, n*1000))
