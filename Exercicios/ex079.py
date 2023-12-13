@@ -1,5 +1,4 @@
 num = []
-decisão = ''
 while True:
     n = int(input('Digite um valor: '))
     if n not in num:
